@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2024_07_02_UniqueCharString", "2024_07_02_UniqueCharString.csproj", "{7BD4E8F9-B59D-4CEF-AB9A-5FA89D7040DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2024_07_03_TestUniqueCharString", "..\2024_07_03_TestUniqueChar\2024_07_03_TestUniqueCharString\2024_07_03_TestUniqueCharString.csproj", "{BDFB8917-84B8-4D27-A92C-23B4F4A37293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7BD4E8F9-B59D-4CEF-AB9A-5FA89D7040DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD4E8F9-B59D-4CEF-AB9A-5FA89D7040DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD4E8F9-B59D-4CEF-AB9A-5FA89D7040DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFB8917-84B8-4D27-A92C-23B4F4A37293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFB8917-84B8-4D27-A92C-23B4F4A37293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFB8917-84B8-4D27-A92C-23B4F4A37293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFB8917-84B8-4D27-A92C-23B4F4A37293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
