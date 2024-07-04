@@ -1,5 +1,8 @@
 namespace TestNamespace
 {
+    /// <summary>
+    // * Check Whether a string has all unique characters
+    /// </summary>
     public class UniqueCharString
     {
         public static bool IsUniqueCharString(string s)
