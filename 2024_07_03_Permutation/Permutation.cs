@@ -19,6 +19,7 @@ namespace _2024_07_03_PERMUTATION
                 return;
             }
 
+            // * We need a copy here to avoid interfering the loop
             HashSet<int> remain = new HashSet<int>(remainInts);
 
             foreach (int i in remain)
