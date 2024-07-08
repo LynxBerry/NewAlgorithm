@@ -17,6 +17,7 @@ namespace _2024_07_03_PERMUTATION
 
         }
 
+        // * Use ImmutableHashSet to track avaiable digits to be chosen
         public void Generate2(int lengthOfPattern)
         {
             ImmutableHashSet<int> ints = ImmutableHashSet.Create([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
@@ -49,6 +50,7 @@ namespace _2024_07_03_PERMUTATION
             remainInts.Add(someInt);
         }
 
+        // * Use ImmutableHashSet to track avaiable digits to be chosen
         private void Combinate2(ImmutableHashSet<int> availableDigits, string prefix, int countOfRemainDigits)
         {
             if (countOfRemainDigits == 0)
