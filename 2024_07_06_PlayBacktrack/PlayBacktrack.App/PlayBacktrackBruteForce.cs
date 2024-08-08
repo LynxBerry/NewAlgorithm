@@ -1,6 +1,6 @@
-namespace PlayBacktrack2.App
+namespace PlayBacktrack.App
 {
-    public class PlayBacktrack
+    public class PlayBacktrackBruteForce
     {
         private readonly IList<string> _answers = [];
         // inputArray: 
@@ -13,7 +13,7 @@ namespace PlayBacktrack2.App
 
             PrintAnswers();
 
-            
+
         }
 
         private void Backtrack(int[] inputArray, int currentPos, int restOfTargetSum, string prefixAnswer)
@@ -39,7 +39,7 @@ namespace PlayBacktrack2.App
             {
                 Console.WriteLine(answer);
             }
-        
+
         }
     }
 
